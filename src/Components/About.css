@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Rowdies:wght@300;400;700&display=swap');
+@media screen and (max-width: 480px){
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('bg1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10rem 0;
+        max-width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem; 
+        max-width: 90%;
+    }
+    
+    .about-image img{
+        max-width: 100%;
+    }
+    .about-intro{
+        max-width: 95%;
+    }
+    .about-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #285430;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #294B29;
+    }
+    .about-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .65rem;
+        color: #163020;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('bg1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10rem 0;
+        max-width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem; 
+        max-width: 90%;
+    }
+    
+    .about-image img{
+        max-width: 100%;
+    }
+    .about-intro{
+        max-width: 90%;
+    }
+    .about-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: #285430;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #294B29;
+    }
+    .about-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .7rem;
+        color: #163020;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('bg1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10rem 0;
+        max-width: 100%;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem; 
+        max-width: 90%;
+    }
+    
+    .about-image img{
+        max-width: 100%;
+    }
+    .about-intro{
+        max-width: 50%;
+    }
+    .about-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: #285430;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #294B29;
+    }
+    .about-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        color: #163020;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1025px){   
+    .about-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('bg1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10rem 0;
+        max-width: 100%;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem; 
+        max-width: 90%;
+    }
+    
+    .about-image img{
+        max-width: 100%;
+    }
+    .about-intro{
+        max-width: 50%;
+    }
+    .about-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #285430;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #294B29;
+    }
+    .about-intro p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #163020;
+        text-align: justify;
+    }
+}

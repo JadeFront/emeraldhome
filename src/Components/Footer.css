@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Rowdies:wght@300;400;700&display=swap');
+@media screen and (max-width: 480px){
+    .footer-container{
+        background-image: url('footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .footer-title h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #C1F2B0;
+        padding: 2rem 0 0 0;
+    }
+    .footer-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        max-width: 90%;
+        padding: 2rem 0 2rem 0;
+    }
+    .footer-container a:hover{
+        color: #9ADE7B;
+    }
+    .footer-content h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #C1F2B0;
+    }
+    .footer-about{
+        max-width: 50%;
+    }
+    .footer-about p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-align: justify;
+        color: white;
+    }
+    .footer-socials a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: white;
+        padding: 0 .2rem;
+    }
+    .footer-service{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-service a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-navigation a{
+        display: flex;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer-end{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+    .footer-end a, p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .footer-container{
+        background-image: url('footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .footer-title h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #C1F2B0;
+        padding: 2rem 0 0 0;
+    }
+    .footer-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        max-width: 90%;
+        padding: 2rem 0 2rem 0;
+    }
+    .footer-container a:hover{
+        color: #9ADE7B;
+    }
+    .footer-content h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2rem;
+        color: #C1F2B0;
+    }
+    .footer-about{
+        max-width: 30%;
+    }
+    .footer-about p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-align: justify;
+        color: white;
+    }
+    .footer-socials a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: white;
+        padding: 0 .2rem;
+    }
+    .footer-service{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-service a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-navigation a{
+        display: flex;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer-end{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+    .footer-end a, p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .footer-container{
+        background-image: url('footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .footer-title h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #C1F2B0;
+        padding: 2rem 0 0 0;
+    }
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        max-width: 90%;
+        padding: 2rem 0 2rem 0;
+    }
+    .footer-container a:hover{
+        color: #9ADE7B;
+    }
+    .footer-content h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: #C1F2B0;
+    }
+    .footer-about{
+        max-width: 30%;
+    }
+    .footer-about p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-align: justify;
+        color: white;
+    }
+    .footer-socials a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: white;
+        padding: 0 .2rem;
+    }
+    .footer-service{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-service a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-navigation a{
+        display: flex;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer-end{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+    .footer-end a, p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: .8rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+}
+
+@media screen and (min-width: 1025px){   
+    .footer-container{
+        background-image: url('footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .footer-title h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 3rem;
+        color: #C1F2B0;
+        padding: 2rem 0 0 0;
+    }
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        max-width: 90%;
+        padding: 2rem 0 2rem 0;
+    }
+    .footer-container a:hover{
+        color: #9ADE7B;
+    }
+    .footer-content h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2rem;
+        color: #C1F2B0;
+    }
+    .footer-about{
+        max-width: 30%;
+    }
+    .footer-about p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: justify;
+        color: white;
+    }
+    .footer-socials a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        padding: 0 .2rem;
+    }
+    .footer-service{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-service a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    .footer-navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-navigation a{
+        display: flex;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer-end{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+    .footer-end a, p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+}

@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Rowdies:wght@300;400;700&display=swap');
+@media screen and (max-width: 480px){
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .nav-logo h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        padding: 0 2rem;
+        color: #304D30;
+    }
+    #checked p{
+        font-size: 1.2rem;
+        padding: 0 2rem;
+    }
+    #check:checked ~ ul{
+        top: 0;
+    }
+    .nav-container ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;background-color: #C1F2B0;
+        top: -1000%;
+        width: 100%;
+        padding: 2rem 0;
+        margin-top: 4rem;
+        gap: .5rem;
+
+    }
+    .nav-container li{
+        list-style: none;
+    }
+    .nav-container a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+    .nav-container a:hover{
+        color: #65B741;
+    }
+    .nav-button{
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-button button{
+        padding: .5rem .8rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .nav-contact{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: white;
+        color: #304D30;
+        border: #5F8D4E solid 2px;
+    }
+    .nav-contact:hover{
+        background-color: #C1F2B0;
+        color: black;
+        border: black solid 2px;
+    }
+    .nav-reserve{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: #376026;
+        border: solid #5F8D4E 2px;
+        color: white;
+    }
+    .nav-reserve:hover{
+        border: solid #5F8D4E 2px;
+        background-color: #C1F2B0;
+        color: #304D30;
+    }
+    #check{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .nav-logo h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.5rem;
+        padding: 0 2rem;
+        color: #304D30;
+    }
+    #checked p{
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+    #check:checked ~ ul{
+        top: 0;
+    }
+    .nav-container ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;background-color: #C1F2B0;
+        top: -1000%;
+        width: 100%;
+        padding: 2rem 0;
+        margin-top: 4rem;
+        gap: .5rem;
+
+    }
+    .nav-container li{
+        list-style: none;
+    }
+    .nav-container a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+    .nav-container a:hover{
+        color: #65B741;
+    }
+    .nav-button{
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-button button{
+        padding: .5rem .8rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .nav-contact{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: white;
+        color: #304D30;
+        border: #5F8D4E solid 2px;
+    }
+    .nav-contact:hover{
+        background-color: #C1F2B0;
+        color: black;
+        border: black solid 2px;
+    }
+    .nav-reserve{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: #376026;
+        border: solid #5F8D4E 2px;
+        color: white;
+    }
+    .nav-reserve:hover{
+        border: solid #5F8D4E 2px;
+        background-color: #C1F2B0;
+        color: #304D30;
+    }
+    #check{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .nav-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: .5rem 0;
+        border: solid black 1px;
+    }
+    .nav-logo h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #304D30;
+    }
+    .nav-container ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+
+    }
+    .nav-container li{
+        list-style: none;
+    }
+    .nav-container a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+    .nav-container a:hover{
+        color: #65B741;
+    }
+    .nav-button{
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-button button{
+        padding: .3rem .8rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .nav-contact{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: white;
+        color: #304D30;
+        border: #5F8D4E solid 2px;
+    }
+    .nav-contact:hover{
+        background-color: #C1F2B0;
+        color: black;
+        border: black solid 2px;
+    }
+    .nav-reserve{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .8rem;
+        background-color: #376026;
+        border: solid #5F8D4E 2px;
+        color: white;
+    }
+    .nav-reserve:hover{
+        border: solid #5F8D4E 2px;
+        background-color: #C1F2B0;
+        color: #304D30;
+    }
+    #check, #checked{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px){   
+    .nav-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: .5rem 0;
+        border: solid black 1px;
+    }
+    .nav-logo h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2rem;
+        color: #304D30;
+    }
+    .nav-container ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+    }
+    .nav-container li{
+        list-style: none;
+    }
+    .nav-container a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #304D30;
+    }
+    .nav-container a:hover{
+        color: #65B741;
+    }
+    .nav-button{
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-button button{
+        padding: 0 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .nav-contact{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1rem;
+        background-color: white;
+        color: #304D30;
+        border: #5F8D4E solid 2px;
+    }
+    .nav-contact:hover{
+        background-color: #C1F2B0;
+        color: black;
+        border: black solid 2px;
+    }
+    .nav-reserve{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1rem;
+        background-color: #376026;
+        border: solid #5F8D4E 2px;
+        color: white;
+    }
+    .nav-reserve:hover{
+        border: solid #5F8D4E 2px;
+        background-color: #C1F2B0;
+        color: #304D30;
+    }
+    #check, #checked{
+        display: none;
+    }
+}
